@@ -1,0 +1,31 @@
+{
+  "type": "library",
+  "name": "ymj666/think-smarty",
+  "homepage": "https://github.com/ymj666/think-smarty",
+  "description": "Smarty Template driver for ThinkPHP6/ThinkPHP8",
+  "license": "MIT",
+  "keywords": [
+    "think-smarty",
+    "thinkphp",
+    "smarty"
+  ],
+  "authors": [
+        {
+            "name": "ymj666",
+            "homepage": "https://github.com/ymj666"
+        }
+    ],
+  "require": {
+    "php": "^8.0",
+    "smarty/smarty": "^5.0",
+    "topthink/framework": "^6.0 || ^8.0"
+  },
+  "support": {
+    "issues": "https://github.com/ymj666/think-smarty/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "ymj666\\": "src"
+    }
+  }
+}
